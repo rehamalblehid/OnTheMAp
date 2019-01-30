@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		4D1790DA21D290E700F7B0E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1790D921D290E700F7B0E2 /* AppDelegate.swift */; };
-		4D1790DC21D290E700F7B0E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1790DB21D290E700F7B0E2 /* ViewController.swift */; };
+		4D1790DC21D290E700F7B0E2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1790DB21D290E700F7B0E2 /* MapViewController.swift */; };
 		4D1790DF21D290E700F7B0E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1790DD21D290E700F7B0E2 /* Main.storyboard */; };
 		4D1790E121D290EA00F7B0E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D1790E021D290EA00F7B0E2 /* Assets.xcassets */; };
 		4D1790E421D290EA00F7B0E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1790E221D290EA00F7B0E2 /* LaunchScreen.storyboard */; };
+		4D25DE4721D4DD100068209F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D25DE4621D4DD100068209F /* LoginViewController.swift */; };
+		4D25DE4B21D6167E0068209F /* GCDBlackBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D25DE4A21D6167E0068209F /* GCDBlackBox.swift */; };
+		4D31423521D296EC00A017C2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31423421D296EC00A017C2 /* TableViewController.swift */; };
+		4D31423721D29A4400A017C2 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31423621D29A4400A017C2 /* Model.swift */; };
+		4D31423B21D3F92D00A017C2 /* AddLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31423A21D3F92D00A017C2 /* AddLocationViewController.swift */; };
+		4D31423D21D3FBCC00A017C2 /* FindLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31423C21D3FBCC00A017C2 /* FindLocationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D1790D621D290E700F7B0E2 /* OnTheMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnTheMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D1790D921D290E700F7B0E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D1790DB21D290E700F7B0E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D1790DB21D290E700F7B0E2 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		4D1790DE21D290E700F7B0E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D1790E021D290EA00F7B0E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D1790E321D290EA00F7B0E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D1790E521D290EA00F7B0E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D25DE4621D4DD100068209F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4D25DE4A21D6167E0068209F /* GCDBlackBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDBlackBox.swift; sourceTree = "<group>"; };
+		4D31423421D296EC00A017C2 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		4D31423621D29A4400A017C2 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		4D31423A21D3F92D00A017C2 /* AddLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationViewController.swift; sourceTree = "<group>"; };
+		4D31423C21D3FBCC00A017C2 /* FindLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindLocationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +67,13 @@
 			isa = PBXGroup;
 			children = (
 				4D1790D921D290E700F7B0E2 /* AppDelegate.swift */,
-				4D1790DB21D290E700F7B0E2 /* ViewController.swift */,
+				4D25DE4621D4DD100068209F /* LoginViewController.swift */,
+				4D1790DB21D290E700F7B0E2 /* MapViewController.swift */,
+				4D31423421D296EC00A017C2 /* TableViewController.swift */,
+				4D31423A21D3F92D00A017C2 /* AddLocationViewController.swift */,
+				4D31423C21D3FBCC00A017C2 /* FindLocationViewController.swift */,
+				4D31423621D29A4400A017C2 /* Model.swift */,
+				4D25DE4A21D6167E0068209F /* GCDBlackBox.swift */,
 				4D1790DD21D290E700F7B0E2 /* Main.storyboard */,
 				4D1790E021D290EA00F7B0E2 /* Assets.xcassets */,
 				4D1790E221D290EA00F7B0E2 /* LaunchScreen.storyboard */,
@@ -135,8 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D1790DC21D290E700F7B0E2 /* ViewController.swift in Sources */,
+				4D25DE4721D4DD100068209F /* LoginViewController.swift in Sources */,
+				4D1790DC21D290E700F7B0E2 /* MapViewController.swift in Sources */,
+				4D31423521D296EC00A017C2 /* TableViewController.swift in Sources */,
+				4D31423B21D3F92D00A017C2 /* AddLocationViewController.swift in Sources */,
+				4D25DE4B21D6167E0068209F /* GCDBlackBox.swift in Sources */,
+				4D31423721D29A4400A017C2 /* Model.swift in Sources */,
 				4D1790DA21D290E700F7B0E2 /* AppDelegate.swift in Sources */,
+				4D31423D21D3FBCC00A017C2 /* FindLocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
